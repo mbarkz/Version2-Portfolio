@@ -2,11 +2,48 @@ body {
     margin: 0
 }
 
+.bg-body-tertiary {
+    background-color: transparent !important;
+    color: black;
+    position: fixed;
+}
+
+.logo {
+    height: 50px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.nav-item {
+    float: right;
+}
+
+.heroSec {
+    font-family: 'DM Serif Display', serif;
+    padding-top: 10vh;
+}
+
+h2 {
+    font-size: 100px;
+}
+
 .heroCol {
-    height: 25vh;
+    height: 20vh;
     align-items: center;
     display: flex;
 }
+
+.heroAbout {
+    display: flex;
+    justify-content: end;
+}
+
+.heroRow {
+    display: flex;
+    justify-content: center;
+    padding: 5px 0px;
+}
+
 
 .headerColImg {
     background-image: url(/images/img1-placeholder.jpg);
@@ -34,10 +71,16 @@ body {
 }
 
 .contactLink {
-    height: 10vh;
+    height: 30vh;
     display: flex;
     justify-content: end;
+    align-items: center;
+    margin-right: 30%;
 
+}
+
+hr {
+    border: 1px #F26419 solid;
 }
 
 a {
@@ -48,17 +91,11 @@ a {
 .contactBtn {
     background-color: #F26419;
     width: 300px;
+    height: 75px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 33vh;
-}
-
-.contactSec {
-    height: 50vh;
-    align-items: center;
-    display: flex;
-    background-color: #F26419;
+    /* margin-right: 33vh; */
 }
 
 .secTitle {
