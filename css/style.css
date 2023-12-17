@@ -77,10 +77,6 @@ a {
     margin: 5px 0px 5px 0px;
 }
 
-.somethingRow {
-    height: 100vh;
-}
-
 .image-stack {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
