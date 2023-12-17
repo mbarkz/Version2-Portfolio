@@ -1,3 +1,7 @@
+body {
+    margin: 0
+}
+
 .heroCol {
     height: 25vh;
     align-items: center;
@@ -29,6 +33,27 @@
     height: 100vh;
 }
 
+.contactLink {
+    height: 10vh;
+    display: flex;
+    justify-content: end;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.contactBtn {
+    background-color: #F26419;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 33vh;
+}
+
 .contactSec {
     height: 50vh;
     align-items: center;
@@ -40,3 +65,44 @@
     font-size: 50px;
     color: white;
 }
+
+.skillsSec {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.skillRow {
+    height: 33vh;
+    background-color: rgb(216, 216, 216);
+    margin: 5px 0px 5px 0px;
+}
+
+.somethingSec {
+    height: 700pxvh;
+}
+
+.somethingImg1 {
+    background-image: url(/images/something1.jpg);
+    background-size: cover;
+    height: 700px;
+}
+
+.somethingImg2 {
+    background-image: url(/images/something2.jpg);
+    background-size: cover;
+    height: 700px;
+}
+
+.somethingImg3 {
+    background-image: url(/images/something3.jpg);
+    background-size: cover;
+    height: 700px;
+}
+
+footer {
+    background-color: #F26419;
+}
+
+
+
+
