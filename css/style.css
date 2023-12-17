@@ -77,26 +77,37 @@ a {
     margin: 5px 0px 5px 0px;
 }
 
-.somethingSec {
-    height: 700pxvh;
+.somethingRow {
+    height: 100vh;
 }
 
-.somethingImg1 {
-    background-image: url(/images/something1.jpg);
-    background-size: cover;
-    height: 700px;
+.image-stack {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    position: relative;
+    padding: 50px;
 }
 
-.somethingImg2 {
-    background-image: url(/images/something2.jpg);
-    background-size: cover;
-    height: 700px;
+.image-stack__item--top {
+    grid-column: 1 / span 8;
+    grid-row: 1;
+    padding-top: 20%;
+    z-index: 1;
 }
 
-.somethingImg3 {
-    background-image: url(/images/something3.jpg);
-    background-size: cover;
-    height: 700px;
+.image-stack__item--bottom {
+    grid-column: 4 / -1;
+    grid-row: 1;
+}
+
+#img1 {
+    width: 100%;
+    display: block;
+}
+
+#img2 {
+    width: 100%;
+    display: block;
 }
 
 footer {
