@@ -27,6 +27,11 @@ h2 {
     font-size: 100px;
 }
 
+h3 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 75px;
+}
+
 .heroCol {
     height: 20vh;
     align-items: center;
@@ -52,22 +57,23 @@ h2 {
 }
 
 .aboutSec {
-    height: 100vh;
+    height: 75vh;
     align-items: center;
     display: flex;
+    margin-bottom: 100px;
 }
 
 .aboutText {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
     justify-content: center;
 }
 
 .aboutImg {
     background-image: url(/images/img2-placeholder.jpg);
     background-size: cover;
-    height: 100vh;
+    height: 75vh;
 }
 
 .contactLink {
@@ -76,7 +82,6 @@ h2 {
     justify-content: end;
     align-items: center;
     margin-right: 30%;
-
 }
 
 a {
@@ -94,6 +99,10 @@ a {
     /* margin-right: 33vh; */
 }
 
+#workTitle {
+    margin-top: 50px;
+}
+
 .cardImg {
     background-image: url(/images/something3.jpg);
     height: 300px;
@@ -105,26 +114,34 @@ a {
     
 }
 
+#contact-skillSeperator {
+    margin-top: 70px;
+}
+
+#contact-workSeperator {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
 .secTitle {
     font-size: 50px;
     color: white;
 }
 
-.skillsSec {
-    padding-left: 0px !important;
-    padding-right: 0px !important;
-}
-
 .skillRow {
     height: 33vh;
-    background-color: rgb(216, 216, 216);
     margin: 5px 0px 5px 0px;
 }
 
 .contactSec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #F26419;
-    height: 20vh;
+    color: white;
+    padding-bottom: 50px;
 }
+
 
 .image-stack {
     display: grid;
