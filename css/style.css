@@ -79,10 +79,6 @@ h2 {
 
 }
 
-hr {
-    border: 1px #F26419 solid;
-}
-
 a {
     text-decoration: none;
     color: white;
@@ -96,6 +92,17 @@ a {
     align-items: center;
     justify-content: center;
     /* margin-right: 33vh; */
+}
+
+.cardImg {
+    background-image: url(/images/something3.jpg);
+    height: 300px;
+    background-size: cover;
+}
+
+.cardCol {
+    margin-top: 50px;
+    
 }
 
 .secTitle {
@@ -112,6 +119,11 @@ a {
     height: 33vh;
     background-color: rgb(216, 216, 216);
     margin: 5px 0px 5px 0px;
+}
+
+.contactSec {
+    background-color: #F26419;
+    height: 20vh;
 }
 
 .image-stack {
