@@ -53,6 +53,7 @@ h3 {
 .headerColImg {
     background-image: url(/images/img1-placeholder.jpg);
     background-size: cover;
+    background-position: center;
 
 }
 
@@ -60,25 +61,32 @@ h3 {
 .headerColImg1 {
     background-image: url(/images/IMGP8037.JPG);
     background-size: cover;
+    background-position: center;
+
 }
 
 .headerColImg2 {
     background-image: url(/images/something2.jpg);
     background-size: cover;
+    background-position: center;
+
 }
 
 .headerColImg3 {
     background-image: url(/images/IMGP8053.JPG);
     background-size: cover;
+    background-position: center;
+
 }
 
 .headerColImg4 {
     background-image: url(/images/IMGP7948.JPG);
     background-size: cover;
+    background-position: center;
+
 }
 
 .aboutSec {
-    height: 75vh;
     align-items: center;
     display: flex;
     margin-bottom: 100px;
@@ -95,7 +103,6 @@ h3 {
     background-image: url(/images/IMGP8003.JPG);
     background-size: cover;
     background-position: center;
-    height: 75vh;
 }
 
 .contactLink {
