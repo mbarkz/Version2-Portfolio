@@ -79,7 +79,7 @@ h3 {
 .contactLink {
     height: 30vh;
     display: flex;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
     margin-right: 30%;
 }
@@ -96,7 +96,6 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* margin-right: 33vh; */
 }
 
 #workTitle {
@@ -128,9 +127,19 @@ a {
     color: white;
 }
 
+#skillTitle {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
 .skillRow {
     height: 33vh;
     margin: 5px 0px 5px 0px;
+    padding: 50px;
+}
+
+.skillHR {
+    padding: 0px;
 }
 
 .contactSec {
@@ -140,6 +149,12 @@ a {
     background-color: #F26419;
     color: white;
     padding-bottom: 50px;
+}
+
+.CTACard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 

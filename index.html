@@ -124,12 +124,25 @@
     <div class="container-fluid contactSec">
         <div class="row contactRow">
             <div class="col-sm-6 mb-6 mb-sm-12  cardCol">
-                <div class="col">
-                    <h3 id="contactTitle">CONTACT</h3>
+                <div class="col cardCol">
+                    <h4>Lets Talk!</h4>
+                    <h3>Contact</h3>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                      </div>
+                      <br>
+                      <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Example textarea</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+                      <br>
+                      <button type="submit" class="btn btn-primary">Sign in</button>
                 </div>
             </div>
             <div class="col-sm-6 mb-6 mb-sm-12 cardCol">
-                <div class="col">
+                <div class="col cardCol">
+                    <div class="cardImg"></div>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea nam cum quam sequi praesentium, est id recusandae nesciunt ut ad debitis consequuntur sed officiis ex eum perspiciatis! Numquam, voluptatum blanditiis?</p>
                 </div>
             </div> 
@@ -138,15 +151,17 @@
 
     </div>
 
-    <h3>SKILLS</h3>
+    <hr id="contact-skillSeperator">
+
+    <h3 id="skillTitle">SKILLS</h3>
 
     <div class="skillSec">
         <div class="skillRow">
-            <hr id="contact-skillSeperator">
+
             <div class="skillHeader"><h4>HMTL</h4></div>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem similique suscipit sequi dolor quasi assumenda sapiente nulla enim dicta neque?</p>
         </div>
-        <hr>
+        <hr class="skillHR">
         <div class="skillRow">
             <div class="skillHeader"><h4>CSS</h4></div>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem similique suscipit sequi dolor quasi assumenda sapiente nulla enim dicta neque?</p>
@@ -161,35 +176,26 @@
 
     <div class="container-fluid somethingSec">
         <div class="row somethingRow">
-            <div class="col">
-                <div class="image-stack">
-                    <div class="image-stack__item image-stack__item--top">
-                        <img id="img1" src="/images/something1.jpg" alt="Random Picture of a Dog">
-                    </div>
-                    <div class="image-stack__item image-stack__item--bottom">
-                        <img  id="img2" src="./images/something2.jpg" alt="Another random pic">
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                Example
-            </div>
-        </div>
-        <div class="row somethingRow">
-            <div class="col">Example</div>
-            <div class="col">
-                <div class="image-stack">
-                    <div class="image-stack__item image-stack__item--top">
-                        <img id="img1" src="/images/something1.jpg" alt="Random Picture of a Dog">
-                    </div>
-                    <div class="image-stack__item image-stack__item--bottom">
-                        <img  id="img2" src="./images/something2.jpg" alt="Another random pic">
+            <div class="col-sm-6 mb-6 mb-sm-12  cardCol">
+                <div class="col">
+                    <div class="image-stack">
+                        <div class="image-stack__item image-stack__item--top">
+                            <img id="img1" src="/images/something1.jpg" alt="Random Picture of a Dog">
+                        </div>
+                        <div class="image-stack__item image-stack__item--bottom">
+                            <img  id="img2" src="./images/something2.jpg" alt="Another random pic">
+                        </div>
                     </div>
                 </div>
             </div>
+            <div class="col-sm-6 mb-6 mb-sm-12 cardCol CTACard">
+                <div class="col CTACard">
+                    <h3>Think you've heard enough?</h3>
+                    <div class="contactBtn"><a href="#">CONTACT ME</a></div>
+                </div>
+            </div>  
         </div>
     </div>
-
     <footer>
         <ul>
             <li>TOP</li>
