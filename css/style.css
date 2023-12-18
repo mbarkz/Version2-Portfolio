@@ -56,6 +56,27 @@ h3 {
 
 }
 
+
+.headerColImg1 {
+    background-image: url(/images/IMGP8037.JPG);
+    background-size: cover;
+}
+
+.headerColImg2 {
+    background-image: url(/images/something2.jpg);
+    background-size: cover;
+}
+
+.headerColImg3 {
+    background-image: url(/images/IMGP8053.JPG);
+    background-size: cover;
+}
+
+.headerColImg4 {
+    background-image: url(/images/IMGP7948.JPG);
+    background-size: cover;
+}
+
 .aboutSec {
     height: 75vh;
     align-items: center;
@@ -71,8 +92,9 @@ h3 {
 }
 
 .aboutImg {
-    background-image: url(/images/img2-placeholder.jpg);
+    background-image: url(/images/IMGP8003.JPG);
     background-size: cover;
+    background-position: center;
     height: 75vh;
 }
 
@@ -102,8 +124,20 @@ a {
     margin-top: 50px;
 }
 
-.cardImg {
-    background-image: url(/images/something3.jpg);
+.cardImg1 {
+    background-image: url(/images/Screenshot\ 2023-12-18\ at\ 17.35.29.png);
+    height: 300px;
+    background-size: cover;
+}
+
+.cardImg2 {
+    background-image: url(/images/refactoring.png);
+    height: 300px;
+    background-size: cover;
+}
+
+.cardImg3 {
+    background-image: url(/images/pre-work.png);
     height: 300px;
     background-size: cover;
 }
@@ -192,5 +226,25 @@ footer {
 }
 
 
+@media only screen and (max-width: 600px) {
+    .headerColImg1, .headerColImg2, .headerColImg3, .headerColImg4, .hiddenCol, .col-1 {
+        display: none;
+    }
 
+    .heroAbout, .heroRow4 {
+        display: flex;
+        justify-content: start;
+    }
 
+    .CTACard {
+        display: flex;
+        align-items: center;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+
+    .CTA {
+        padding-bottom: 30px;
+        font-size: larger;
+    }
+}
