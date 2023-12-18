@@ -39,45 +39,45 @@
             <div class="col-4 headerColImg1">
             </div>
             <div class="col heroCol">
-                <h2>ABOUT</h2>
+                <a href="#ABOUTSEC"><h2>ABOUT</h2></a>
             </div>
-            
+            <div class="col-4 hidden headerColImg1-mini"></div>
         </div>
         <div class="row heroRow heroRow2">
             <div class="col heroCol heroAbout">
-                <h2 class="about">WORK</h2>
+                <a href="#workTitle"><h2 class="about">WORK</h2></a>
             </div>
             <div class="col headerColImg2">
             </div>
             <div class="col"></div>
-
+            <div class="col-4 hidden headerColImg2-mini"></div>
         </div>
         <div class="row heroRow heroRow3">
             <div class="col hiddenCol"></div>
             <div class="col heroCol heroAbout">
-                <h2>CONTACT</h2>
+                <a href="#contact-workSeperator"><h2>CONTACT</h2></a>
             </div>
             <div class="col headerColImg3">
             </div>
-
+            <div class="col-4 hidden headerColImg3-mini"></div>
         </div>
         <div class="row heroRow heroRow4">
             <div class="col-1"></div>
             <div class="col headerColImg4">
             </div>
-            <div class="col-7 heroCol">
-                <h2>MORE</h2>
-            </div>
-
+            <div class="col heroCol">
+                <a href="#contact-skillSeperator"><h2>SKILLS</h2></a></div>
+            <div class="col-4 hidden headerColImg4-mini"></div>
         </div>
+        
 
     </div>
 
     <div class="container-fluid contactLink">
-        <div class="contactBtn"><a href="#">CONTACT ME</a></div>
+        <div class="contactBtn"><a href="#contact-workSeperator">CONTACT ME</a></div>
     </div>
 
-    <div class="container-fluid aboutSec">
+    <div id="ABOUTSEC" class="container-fluid aboutSec">
         <div class="row">
             <div class="col aboutImg">
             </div>
@@ -124,7 +124,7 @@
                 <div class="col cardCol">
                     <h4>Pre Work Study Guide</h4>
                     <div class="cardImg3"></div>
-                    <p>Wow what's this thing? A time machine to Tim Berners first site?
+                    <p>Wow what's this thing? A time machine to Tim Berner's first site? Only kidding, I made this! This was my first functioning web project to document my progress through the courses pre-work. Look how far I have come I suppose!
                     </p>
                 </div>
             </div> 
@@ -137,7 +137,7 @@
     <div class="container-fluid contactSec">
         <div class="row contactRow">
             <div class="col-sm-6 mb-6 mb-sm-12  cardCol">
-                <div class="col cardCol">
+                <div class="col cardCol contactCard">
                     <h4>Lets Talk!</h4>
                     <h3>Contact</h3>
                     <div class="form-group">
@@ -146,17 +146,18 @@
                       </div>
                       <br>
                       <div class="form-group">
-                        <label for="exampleFormControlTextarea1">Example textarea</label>
+                        <label for="exampleFormControlTextarea1">Write me a message</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                       </div>
                       <br>
-                      <button type="submit" class="btn btn-primary">Sign in</button>
+                      <button type="submit" class="btn btn-primary">Send</button>
                 </div>
             </div>
             <div class="col-sm-6 mb-6 mb-sm-12 cardCol hiddenCol">
-                <div class="col cardCol">
+                <div class="col cardCol contactCard contactText">
                     <div class="cardImg"></div>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea nam cum quam sequi praesentium, est id recusandae nesciunt ut ad debitis consequuntur sed officiis ex eum perspiciatis! Numquam, voluptatum blanditiis?</p>
+                    <img id="contactLogo" src="/images/Asset 2.svg" alt="BARKZ Logo">
                 </div>
             </div> 
         </div>
@@ -203,21 +204,16 @@
             </div>
             <div class="col-sm-6 mb-6 mb-sm-12 cardCol CTACard">
                 <div class="col CTACard">
-                    <h3 class="CTA">Think you've heard enough?</h3>
-                    <div class="contactBtn"><a href="#">CONTACT ME</a></div>
+                    <h3 class="CTA">Seen Enough?</h3>
+                    <div class="contactBtn"><a href="#contact-workSeperator">CONTACT ME</a></div>
                 </div>
             </div>  
         </div>
     </div>
     <footer>
-        <ul>
-            <li>TOP</li>
-            <li>ABOUT</li>
-            <li>WORK</li>
-            <li>CONTACT</li>
-            <li>SKILLS</li>
-            <li>SOMETHING</li>
-        </ul>
+        <div class="footerLogo">
+            <img id="footerLogo" src="/images/Asset 2.svg" alt="BARKZ Logo">
+        </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>

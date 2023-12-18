@@ -49,15 +49,6 @@ h3 {
     padding: 5px 0px;
 }
 
-
-.headerColImg {
-    background-image: url(/images/img1-placeholder.jpg);
-    background-size: cover;
-    background-position: center;
-
-}
-
-
 .headerColImg1 {
     background-image: url(/images/IMGP8037.JPG);
     background-size: cover;
@@ -115,7 +106,11 @@ h3 {
 
 a {
     text-decoration: none;
-    color: white;
+    color: black;
+}
+
+p {
+    font-size: small;
 }
 
 .contactBtn {
@@ -135,18 +130,23 @@ a {
     background-image: url(/images/Screenshot\ 2023-12-18\ at\ 17.35.29.png);
     height: 300px;
     background-size: cover;
+    margin-bottom: 20px;
 }
 
 .cardImg2 {
     background-image: url(/images/refactoring.png);
     height: 300px;
     background-size: cover;
+    margin-bottom: 20px;
+
 }
 
 .cardImg3 {
     background-image: url(/images/pre-work.png);
     height: 300px;
     background-size: cover;
+    margin-bottom: 20px;
+
 }
 
 .cardCol {
@@ -154,8 +154,25 @@ a {
     
 }
 
+.contactCard {
+    padding: 50px;
+}
+
+.contactText {
+    margin-top: 125px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
 #contact-skillSeperator {
     margin-top: 70px;
+}
+
+#contactLogo {
+    height: 100px;
+    margin-top: 50px;
 }
 
 #contact-workSeperator {
@@ -229,13 +246,65 @@ a {
 }
 
 footer {
+    display: flex;
     background-color: #F26419;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 30px 0 30px;
+    color: white;
+
+}
+
+#footerLogo {
+    height: 50px;
+    margin: 15px;
+}
+
+.hidden {
+    display: none;
 }
 
 
 @media only screen and (max-width: 600px) {
     .headerColImg1, .headerColImg2, .headerColImg3, .headerColImg4, .hiddenCol, .col-1 {
         display: none;
+    }
+
+    .headerColImg1-mini {
+        display: block;
+        background-image: url(/images/IMGP8037.JPG);
+        background-size: cover;
+        background-position: center;
+    
+    }
+    
+    .headerColImg2-mini {
+        display: block;
+        background-image: url(/images/something2.jpg);
+        background-size: cover;
+        background-position: center;
+    
+    }
+    
+    .headerColImg3-mini {
+        display: block;
+        background-image: url(/images/IMGP8053.JPG);
+        background-size: cover;
+        background-position: center;
+    
+    }
+    
+    .headerColImg4-mini {
+        display: block;
+        background-image: url(/images/IMGP7948.JPG);
+        background-size: cover;
+        background-position: center;
+    
+    }
+    
+
+    h2 {
+        font-size: 60px;
     }
 
     .heroAbout, .heroRow4 {
