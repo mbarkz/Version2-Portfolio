@@ -57,21 +57,21 @@ h3 {
 }
 
 .headerColImg2 {
-    background-image: url(../images/something2.jpg);
+    background-image: url(../images/something2.JPG);
     background-size: cover;
     background-position: center;
 
 }
 
 .headerColImg3 {
-    background-image: url(../images/IMGP8053.jpg);
+    background-image: url(../images/IMGP8053.JPG);
     background-size: cover;
     background-position: center;
 
 }
 
 .headerColImg4 {
-    background-image: url(../images/IMGP7948.jpg);
+    background-image: url(../images/IMGP7948.JPG);
     background-size: cover;
     background-position: center;
 
@@ -280,7 +280,7 @@ footer {
     
     .headerColImg2-mini {
         display: block;
-        background-image: url(../images/something2.jpg);
+        background-image: url(../images/something2.JPG);
         background-size: cover;
         background-position: center;
     
