@@ -50,28 +50,28 @@ h3 {
 }
 
 .headerColImg1 {
-    background-image: url(images/IMGP8037.JPG);
+    background-image: url(/images/IMGP7860.JPG);
     background-size: cover;
     background-position: center;
 
 }
 
 .headerColImg2 {
-    background-image: url(images/something2.jpg);
+    background-image: url(/images/something2.jpg);
     background-size: cover;
     background-position: center;
 
 }
 
 .headerColImg3 {
-    background-image: url(images/IMGP8053.JPG);
+    background-image: url(/images/IMGP8053.jpg);
     background-size: cover;
     background-position: center;
 
 }
 
 .headerColImg4 {
-    background-image: url(images/IMGP7948.JPG);
+    background-image: url(/images/IMGP7948.jpg);
     background-size: cover;
     background-position: center;
 
