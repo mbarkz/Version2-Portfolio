@@ -191,9 +191,8 @@ p {
 }
 
 .skillRow {
-    height: 33vh;
     margin: 5px 0px 5px 0px;
-    padding: 50px;
+    padding: 0px 50px;
 }
 
 .skillHR {
